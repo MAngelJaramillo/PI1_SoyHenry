@@ -1,7 +1,9 @@
 uvicorn
 pandas
 numpy
-FastApi
+fastapi
 matplotlib
 scikit-learn
 seaborn
+pydantic
+calendar
