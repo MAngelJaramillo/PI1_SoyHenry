@@ -112,7 +112,7 @@ Por último se desarrollo un modelo de machine learning utilizando la similitud 
 # _**API Deployment**_
 El deployement de esta API se puede encontrar en el siguente link para poder acceder a todos sus endpoints:
 
-[API Deployment](https://proyecto-individual-1-oath.onrender.com/docs#/)
+[API Deployment]()
 
 # Requisitos
 - Python
@@ -127,4 +127,4 @@ El deployement de esta API se puede encontrar en el siguente link para poder acc
 
 # _Autor_
 - Miguel Ángel Jaramillo
-- Mail: miguelangelgomezj@gmail.com# PI1_SoyHenry
+- Mail: miguelangelgomezj@gmail.com
