@@ -148,9 +148,3 @@ def recomendacion(titulo: str):
     recommendations = df.iloc[similar_indices]['title'].tolist()
 
     return {"recomendaciones": recommendations}
-
-
-#Por último el bloque de código para que el servidor se inicie automaticamente en bash
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
