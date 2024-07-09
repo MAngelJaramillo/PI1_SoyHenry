@@ -5,8 +5,10 @@ import calendar
 
 app = FastAPI()
 
-#Carga del dataset
-df = pd.read_csv('C:/Users/march/Downloads/Movies/dataset_full.csv')
+try:
+    df = pd.read_csv('dataset_full.csv')
+except FileNotFoundError:
+    raise HTTPException(status_code=500, detail="File not found: 'dataset_full.csv'")
 
 
 #El objetivo de esta API es desarrollar 6 funciones para los EndPoints que se consumirán en la API.
